@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a:hover{
+    background-color: rgb(92, 146, 255);
+    cursor: pointer;
+}
+
+a{
+    background-color: rgb(145, 182, 255);
+    border: 5px solid black;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    line-height: 250px;
+    margin: 10% 20px;
+    font-size: 150px;
+    color: black;
+    height: 300px;
+    width: 300px;
+}
+
+a i{
+    vertical-align: middle;
+}
